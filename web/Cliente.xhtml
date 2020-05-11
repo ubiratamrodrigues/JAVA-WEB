@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE composition PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<ui:composition xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+                template="./Modelo.xhtml">
+
+    <ui:define name="top">
+        top
+    </ui:define>
+
+    <ui:define name="content">
+       
+        <h:form>
+        <h:panelGrid columns="4">     
+      
+      <p:outputLabel value="Nome"></p:outputLabel>    
+      <p:inputText value=""size="50"></p:inputLabel> 
+      
+      <p:outputLabel value="Curso"></p:outputLabel>    
+      <p:inputText value=""size="50"></p:inputLabel> 
+      
+      <p:outputLabel value="Disciplina"></p:outputLabel>
+      <p:inputText value=""size="50"></p:inputLabel>
+      
+      <p:outputLabel value="Email"></p:outputLabel>    
+      <p:inputText value=""size="50"></p:inputLabel> 
+      
+      
+      <p:commandButton value="Salvar" action=" " update="@form"> </p:commandButton
+      </h:panelGrid>
+      </h:form>
+
+        
+        
+        
+        
+    </ui:define>
+    
+    
+    
+
+    <ui:define name="bottom">
+        bottom
+    </ui:define>
+
+</ui:composition>
